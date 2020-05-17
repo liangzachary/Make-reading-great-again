@@ -1,0 +1,11 @@
+download anaconda (conda)
+create environment for Python 3.6 (needed for audiogen)
+
+flask
+audiogen
+msrest
+boto3
+bs4
+textblob
+azure-cognitiveservices-search-websearch
+azure-cognitiveservices-search-imagesearch

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Center 'START OVER' Button and Improve Image Search (keywords)-->
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+
+  </script>
+  <title>CSS Website Layout</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="static/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="static/script.js">
+  </script>
+</head>
+
+<body>
+  <!--Start Header Area-->
+  <div class="header w3-aqua">
+    <h1 STYLE="font-family: Comic Sans MS, cursive, sans-serif; font-size: 40px;">Make reading great again!</h1>
+    <p>✬☛« » Read « »☚✬</p>
+  </div>
+  <!--End Header Area-->
+  <div class="topnav w3-center w3-aqua">
+    <button class="w3-top-align w3-block w3-button w3-black w3-padding-large w3-large w3-margin-top w3-myfont2 w3-wide"
+      onClick="window.location.href=window.location.href">
+      Start Over
+    </button>
+  </div>
+  <div class="row">
+    <div class="column side">
+      <h2 class="w3-myfont2">
+        ‎‎‎‎‎‎‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎Your Text 👇
+        <!-- TextBox -->
+        <div class="w3-panel w3-margin-right w3-margin-left">
+          <textarea name="message" rows="10" cols="30"
+            STYLE="color: #000111; font-family: Comic Sans MS, cursive, sans-serif; width:100%; font-size: 20px; background-color: #e2e2e2;"
+            size="10" id="inputText"></textarea>
+          <div style="text-align:center">
+            <button
+              class="w3-top-align w3-button w3-padding-large w3-large w3-margin-top w3-myfont2 w3-hover-teal w3-xlarge"
+              onclick="hackAccount()" STYLE="color:#000000; background-color: #CCD1D1;">
+              Submit
+            </button>
+          </div>
+          <div class="w3-center" id="audio_area">
+            <br>
+            <audio id="audio" controls>
+              <source src="/audio" type="audio/mpeg">
+            </audio>
+            <br>
+            <!--<audio id="audio" controls>
+              <source id="audioSource" src="">
+            </audio>-->
+          </div>
+          <div id="result">
+          </div>
+        </div>
+    </div>
+</body>
+
+</html>
