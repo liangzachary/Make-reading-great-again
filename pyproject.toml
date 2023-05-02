@@ -11,7 +11,7 @@ msrest = "^0.6.11"
 azure-cognitiveservices-search-imagesearch = "^2.0"
 azure-cognitiveservices-search-websearch = "^2.0"
 bs4 = "^0.0.1"
-flask = "^1.1"
+flask = "^2.2"
 flask-cors = "^3.0"
 textblob = "^0.15.3"
 
